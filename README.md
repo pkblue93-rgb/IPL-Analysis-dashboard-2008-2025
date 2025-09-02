@@ -26,7 +26,7 @@ Highest Individual Score (if available in dataset)
 Best Bowling Figures (if available in dataset)
 
 dashboard intteraction<a href="https://github.com/pkblue93-rgb/IPL-Analysis-dashboard-2008-2025/blob/main/WhatsApp%20Image%202025-09-02%20at%2012.34.20.jpeg">View dashboard</a>
-## process
+##Process
 Data Collection & Cleaning → Import ball-by-ball, matches, players, and teams data into Power BI and clean using Power Query.
 Data Modeling → Build relationships between tables (match_id, team_id, player_id).
 DAX Measures (KPIs) → Create formulas for total 6s, 4s, centuries, wins, points, Orange Cap, Purple Cap, top 4s & 6s.
