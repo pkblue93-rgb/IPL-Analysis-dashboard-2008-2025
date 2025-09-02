@@ -37,6 +37,14 @@ Test & Publish → Validate KPIs, apply filters, and publish to Power BI Service
 #Dashboard
 ![WhatsApp Image 2025-09-02 at 11 23 46](https://github.com/user-attachments/assets/dbe9407d-a294-4a76-a0f3-ef40246fdbc6)
 
+##Project Insights
+Seasonal trends highlight consistent performers (Orange & Purple Cap holders).
+Teams’ win percentage and points table reveal dominance patterns across years.
+Batting metrics (sixes, fours, centuries) show how scoring styles evolved over seasons.
+Venue and match stats provide a clear view of IPL’s expansion and competitiveness.
+
+##Final Conclusion
+The IPL Dashboard delivers a comprehensive view of 2008–2025 seasons, enabling quick insights into team success, player achievements, and overall tournament growth, making it a valuable tool for fans, analysts, and decision-makers.
 
 
 
