@@ -6,7 +6,7 @@ It aims to provide quick, interactive insights into winners, records, and trends
 ##Dataset used
 -<a href="https://github.com/pkblue93-rgb/IPL-Analysis-dashboard-2008-2025/blob/main/teams_data.csv">Dataset</a>
 
-🏏 IPL Dashboard KPIs
+##IPL Dashboard KPIs
 Total Matches Played (per season)
 Total Teams participated
 Total Venues used
@@ -25,7 +25,7 @@ Top Six Player – Player with most sixes
 Highest Individual Score (if available in dataset)
 Best Bowling Figures (if available in dataset)
 
-dashboard intteraction<a href="https://github.com/pkblue93-rgb/IPL-Analysis-dashboard-2008-2025/blob/main/WhatsApp%20Image%202025-09-02%20at%2012.34.20.jpeg">View dashboard</a>
+##Dashboard Interaction<a href="https://github.com/pkblue93-rgb/IPL-Analysis-dashboard-2008-2025/blob/main/WhatsApp%20Image%202025-09-02%20at%2012.34.20.jpeg">View dashboard</a>
 ##Process
 Data Collection & Cleaning → Import ball-by-ball, matches, players, and teams data into Power BI and clean using Power Query.
 Data Modeling → Build relationships between tables (match_id, team_id, player_id).
