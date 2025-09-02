@@ -1,2 +1,4 @@
 # IPL-Analysis-dashboard-2008-2025
-This Power BI project provides an interactive IPL analysis (2008–2025) showcasing season-wise winners, team standings, and player performance (Orange/Purple Cap, top fours &amp; sixes). It enables quick insights into match stats, records, and trends across all seasons.
+
+The objective of this project is to analyze IPL seasons (2008–2025) using Power BI by tracking team performance, player achievements, and key match statistics.
+It aims to provide quick, interactive insights into winners, records, and trends across all seasons.
