@@ -35,7 +35,9 @@ Dashboard Layout → Arrange season filter, winners/runner-up, stats, team table
 Test & Publish → Validate KPIs, apply filters, and publish to Power BI Service.
 
 #Dashboard
-https"C:\Users\Bharath Kumar\Downloads\Screenshot 2025-09-03 081955.png"
+![WhatsApp Image 2025-09-02 at 11 23 46](https://github.com/user-attachments/assets/dbe9407d-a294-4a76-a0f3-ef40246fdbc6)
+<img width="518" height="277" alt="Screenshot 2025-09-03 081955" src="https://github.com/user-attachments/assets/2da24017-675c-4d75-9f84-b93fe66162d2" />
+
 
 
 ##Project Insights
