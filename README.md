@@ -35,7 +35,8 @@ Dashboard Layout → Arrange season filter, winners/runner-up, stats, team table
 Test & Publish → Validate KPIs, apply filters, and publish to Power BI Service.
 
 #Dashboard
-![WhatsApp Image 2025-09-02 at 11 23 46](https://github.com/user-attachments/assets/dbe9407d-a294-4a76-a0f3-ef40246fdbc6)
+https"C:\Users\Bharath Kumar\Downloads\Screenshot 2025-09-03 081955.png"
+
 
 ##Project Insights
 Seasonal trends highlight consistent performers (Orange & Purple Cap holders).
