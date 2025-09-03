@@ -3,8 +3,19 @@
 The objective of this project is to analyze IPL seasons (2008–2025) using Power BI by tracking team performance, player achievements, and key match statistics.
 It aims to provide quick, interactive insights into winners, records, and trends across all seasons.
 
+
 ##Dataset used
 -<a href="https://github.com/pkblue93-rgb/IPL-Analysis-dashboard-2008-2025/blob/main/teams_data.csv">Dataset</a>
+
+##Dataset Collection
+Official IPL website (iplt20.com)
+Sports analytics websites (ESPNcricinfo, Cricbuzz)
+Kaggle datasets (IPL Ball-by-Ball, IPL Matches, Player Stats, etc.)
+Collected Attributes:
+Season, Teams, Matches Played, Wins, Losses, Runs, Wickets, Sixes, Fours
+Orange Cap (Most Runs), Purple Cap (Most Wickets)
+Player performance (Top 4s, Top 6s, Strike Rate, Average)
+Venue statistics
 
 ##IPL Dashboard KPIs
 Total Matches Played (per season)
