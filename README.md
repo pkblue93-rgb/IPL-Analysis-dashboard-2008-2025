@@ -7,6 +7,10 @@ It aims to provide quick, interactive insights into winners, records, and trends
 ##Dataset used
 -<a href="https://github.com/pkblue93-rgb/IPL-Analysis-dashboard-2008-2025/blob/main/teams_data.csv">Dataset</a>
 
+##Problem Statement
+The Indian Premier League (IPL) generates vast amounts of data every season, including team performances, player statistics, match outcomes, and tournament highlights. However, this data is often scattered across different sources, making it difficult for analysts, fans, and stakeholders to gain meaningful insights.
+##Problem: How can we collect, clean, and analyze IPL data from 2008 to 2025 to identify trends, top performers, and key statistics in a visually interactive way?
+
 ##Dataset Collection
 Official IPL website (iplt20.com)
 Sports analytics websites (ESPNcricinfo, Cricbuzz)
@@ -44,6 +48,48 @@ DAX Measures (KPIs) → Create formulas for total 6s, 4s, centuries, wins, point
 Visualizations → Use cards, tables, charts, slicers, and images for interactive insights.
 Dashboard Layout → Arrange season filter, winners/runner-up, stats, team table, and player highlights.
 Test & Publish → Validate KPIs, apply filters, and publish to Power BI Service.
+
+#DAX
+Total Runs = SUM(MatchData[Runs])
+Total 6s = CALCULATE(COUNTROWS(MatchData), MatchData[Runs] = 6)
+Total 4s = CALCULATE(COUNTROWS(MatchData), MatchData[Runs] = 4)
+Orange Cap Runs = 
+MAXX(
+    SUMMARIZE(MatchData, Players[PlayerName], "TotalRuns", SUM(MatchData[Runs])),
+    [TotalRuns]
+)
+Purple Cap Wickets = 
+MAXX(
+    SUMMARIZE(MatchData, Players[PlayerName], "TotalWickets", SUM(MatchData[Wickets])),
+    [TotalWickets]
+)
+Win % = 
+DIVIDE(
+    SUM(Teams[MatchesWon]),
+    SUM(Teams[MatchesPlayed]),
+    0
+)
+Total Matches = DISTINCTCOUNT(MatchData[MatchID])
+Centuries = 
+COUNTROWS(
+    FILTER(
+        SUMMARIZE(MatchData, MatchData[MatchID], Players[PlayerName], "Runs", SUM(MatchData[Runs])),
+        [Runs] >= 100
+    )
+)
+Half Centuries = 
+COUNTROWS(
+    FILTER(
+        SUMMARIZE(MatchData, MatchData[MatchID], Players[PlayerName], "Runs", SUM(MatchData[Runs])),
+        [Runs] >= 50 && [Runs] < 100
+    )
+)
+Total Points = 
+SUMX(
+    Teams,
+    (Teams[MatchesWon] * 2) + (Teams[TieMatches] * 1)
+)
+
 
 #Dashboard
 ![WhatsApp Image 2025-09-02 at 11 23 46](https://github.com/user-attachments/assets/dbe9407d-a294-4a76-a0f3-ef40246fdbc6)
