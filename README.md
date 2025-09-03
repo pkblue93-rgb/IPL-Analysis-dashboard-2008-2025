@@ -40,6 +40,7 @@ Test & Publish → Validate KPIs, apply filters, and publish to Power BI Service
 
 
 
+
 ##Project Insights
 Seasonal trends highlight consistent performers (Orange & Purple Cap holders).
 Teams’ win percentage and points table reveal dominance patterns across years.
